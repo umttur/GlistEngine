@@ -366,7 +366,7 @@ var searchData=
   ['settextfont_363',['setTextFont',['../classgGUITextbox.html#ab0581a36f4dab26d7bc11fb02f3dc841',1,'gGUITextbox']]],
   ['settexture_364',['settexture',['../classgMesh.html#a11459a102a3d384efe86846c1cac7c50',1,'gMesh::setTexture()'],['../classgBaseParticles.html#a9ab3ccac56ba4848594621bb16a62846',1,'gBaseParticles::setTexture()']]],
   ['settextures_365',['settextures',['../classgMesh.html#aa544ae3b925841d04418c4028ad06c50',1,'gMesh::setTextures(const std::vector&lt; gTexture * &gt; &amp;textures)'],['../classgMesh.html#a43aff4756e49d794e46c22553a8b09f6',1,'gMesh::setTextures(const std::unordered_map&lt; gTexture::TextureType, gTexture * &gt; &amp;textures)']]],
-  ['settexturescale_366',['settexturescale',['../classgPlane.html#a1aae3f949f2a03a612c7e5eca355f662',1,'gPlane::setTextureScale(float tiling)'],['../classgPlane.html#a3e5d25876e07a37adc87aa5319bf37dd',1,'gPlane::setTextureScale(float tilingX, float tilingY)']]],
+  ['settexturescale_366',['settexturescale',['../classgPlane.html#a6df5801045453544a609039e5f975a4e',1,'gPlane::setTextureScale(float tile)'],['../classgPlane.html#ad0b741fed8ca105c43e3d1faa7be4247',1,'gPlane::setTextureScale(float tileX, float tileY)']]],
   ['settextverticalalignment_367',['setTextVerticalAlignment',['../classgGUIText.html#ab9b991b9d9e6b2b8525edb3abf6ce449',1,'gGUIText']]],
   ['settextvisibility_368',['settextvisibility',['../classgGUIButton.html#abdd7d6ed40d29fb8ccb949409d877784',1,'gGUIButton::setTextVisibility()'],['../classgGUISlider.html#a37693d705837bee2b218e0c4b615c276',1,'gGUISlider::setTextVisibility()']]],
   ['settheme_369',['setTheme',['../classgGUIManager.html#aae7e2b2d00a5066e31c8e2b52b831d29',1,'gGUIManager']]],
