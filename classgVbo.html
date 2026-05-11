@@ -173,12 +173,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a951d60eb313c30a60d37c76ef4cffacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f9de13e2cf3ca8b4137a41b27797c2f" id="r_a0f9de13e2cf3ca8b4137a41b27797c2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgVbo.html#a0f9de13e2cf3ca8b4137a41b27797c2f">setIndexData</a> (const int *indices, int total, int usage)</td></tr>
 <tr class="separator:a0f9de13e2cf3ca8b4137a41b27797c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4e86aa7f88b9ce8ded989fe2b03fe3" id="r_adc4e86aa7f88b9ce8ded989fe2b03fe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgVbo.html#adc4e86aa7f88b9ce8ded989fe2b03fe3">setInstanceData</a> (const glm::mat4 *matrices, int count)</td></tr>
+<tr class="separator:adc4e86aa7f88b9ce8ded989fe2b03fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68f0c0a1c702f4298cead88988401bb8" id="r_a68f0c0a1c702f4298cead88988401bb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgVbo.html#a68f0c0a1c702f4298cead88988401bb8">getVAOid</a> () const</td></tr>
 <tr class="separator:a68f0c0a1c702f4298cead88988401bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54558e4d55a66d2fbe59a9aba2642cb6" id="r_a54558e4d55a66d2fbe59a9aba2642cb6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgVbo.html#a54558e4d55a66d2fbe59a9aba2642cb6">getVerticesNum</a> () const</td></tr>
 <tr class="separator:a54558e4d55a66d2fbe59a9aba2642cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12ab0cc3c251af48657dffb417007f67" id="r_a12ab0cc3c251af48657dffb417007f67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgVbo.html#a12ab0cc3c251af48657dffb417007f67">getIndicesNum</a> () const</td></tr>
 <tr class="separator:a12ab0cc3c251af48657dffb417007f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78753977b14f428bc44d3ac56d48ad40" id="r_a78753977b14f428bc44d3ac56d48ad40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgVbo.html#a78753977b14f428bc44d3ac56d48ad40">getInstanceNum</a> () const</td></tr>
+<tr class="separator:a78753977b14f428bc44d3ac56d48ad40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classgRenderObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgRenderObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgRenderObject.html">gRenderObject</a></td></tr>
 <tr class="memitem:a9aed705f1e1a4e4cdacfbfe13179a28f inherit pub_methods_classgRenderObject" id="r_a9aed705f1e1a4e4cdacfbfe13179a28f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgRenderObject.html#a9aed705f1e1a4e4cdacfbfe13179a28f">gRenderObject</a> ()</td></tr>
 <tr class="separator:a9aed705f1e1a4e4cdacfbfe13179a28f inherit pub_methods_classgRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,6 +441,23 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a78753977b14f428bc44d3ac56d48ad40" name="a78753977b14f428bc44d3ac56d48ad40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78753977b14f428bc44d3ac56d48ad40">&#9670;&#160;</a></span>getInstanceNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gVbo::getInstanceNum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a68f0c0a1c702f4298cead88988401bb8" name="a68f0c0a1c702f4298cead88988401bb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68f0c0a1c702f4298cead88988401bb8">&#9670;&#160;</a></span>getVAOid()</h2>
 
@@ -673,6 +694,34 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>usage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc4e86aa7f88b9ce8ded989fe2b03fe3" name="adc4e86aa7f88b9ce8ded989fe2b03fe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4e86aa7f88b9ce8ded989fe2b03fe3">&#9670;&#160;</a></span>setInstanceData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gVbo::setInstanceData </td>
+          <td>(</td>
+          <td class="paramtype">const glm::mat4 *&#160;</td>
+          <td class="paramname"><em>matrices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

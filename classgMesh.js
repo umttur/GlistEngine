@@ -10,6 +10,7 @@ var classgMesh =
     [ "distanceTriangles", "classgMesh.html#a291053f55855da58d0f0bc65237d9250", null ],
     [ "draw", "classgMesh.html#aeaf41b95591a5d04b1aa5d9c660a2e23", null ],
     [ "drawEnd", "classgMesh.html#a2a2fc4bc184a831caafdcbea463219ff", null ],
+    [ "drawInstanced", "classgMesh.html#aa2d3475074c4278cac91f1e03984ade7", null ],
     [ "drawStart", "classgMesh.html#a912e0351536df6d94cd449937bd02420", null ],
     [ "drawVbo", "classgMesh.html#aa5ea135e74def0f916e1456e519e3c5c", null ],
     [ "fillMissingVertexColors", "classgMesh.html#a4ebe3afec5a7333eeda5fea8aec87c81", null ],
