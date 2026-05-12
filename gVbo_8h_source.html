@@ -162,33 +162,28 @@ $(document).ready(function(){initNavTree('gVbo_8h_source.html',''); initResizabl
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classgVbo.html#a8fd41c23b393e8f5a6740ef5bb28b9bf">   59</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgVbo.html#a8fd41c23b393e8f5a6740ef5bb28b9bf">setNormalData</a>(<span class="keyword">const</span> glm::vec3* normals, <span class="keywordtype">int</span> total, <span class="keywordtype">int</span> usage = GL_STATIC_DRAW);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classgVbo.html#a951d60eb313c30a60d37c76ef4cffacc">   60</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgVbo.html#a951d60eb313c30a60d37c76ef4cffacc">setNormalData</a>(<span class="keyword">const</span> <span class="keywordtype">float</span>* normal0x, <span class="keywordtype">int</span> total, <span class="keywordtype">int</span> usage, <span class="keywordtype">int</span> stride = 0);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classgVbo.html#a0f9de13e2cf3ca8b4137a41b27797c2f">   61</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgVbo.html#a0f9de13e2cf3ca8b4137a41b27797c2f">setIndexData</a>(<span class="keyword">const</span> <span class="keywordtype">int</span>* indices, <span class="keywordtype">int</span> total, <span class="keywordtype">int</span> usage);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classgVbo.html#adc4e86aa7f88b9ce8ded989fe2b03fe3">   62</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgVbo.html#adc4e86aa7f88b9ce8ded989fe2b03fe3">setInstanceData</a>(<span class="keyword">const</span> glm::mat4* matrices, <span class="keywordtype">int</span> count);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classgVbo.html#a68f0c0a1c702f4298cead88988401bb8">   64</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classgVbo.html#a68f0c0a1c702f4298cead88988401bb8">getVAOid</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classgVbo.html#a54558e4d55a66d2fbe59a9aba2642cb6">   65</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classgVbo.html#a54558e4d55a66d2fbe59a9aba2642cb6">getVerticesNum</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classgVbo.html#a12ab0cc3c251af48657dffb417007f67">   66</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classgVbo.html#a12ab0cc3c251af48657dffb417007f67">getIndicesNum</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="classgVbo.html#a78753977b14f428bc44d3ac56d48ad40">   67</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classgVbo.html#a78753977b14f428bc44d3ac56d48ad40">getInstanceNum</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    GLuint vao;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    GLuint vbo, ebo;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    GLuint instancebo;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">bool</span> isenabled;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">bool</span> isvertexdataallocated;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">int</span> vertexdatacoordnum, totalvertexnum;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">int</span> vertexusage, vertexstride;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classgVbo.html#a68f0c0a1c702f4298cead88988401bb8">   63</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classgVbo.html#a68f0c0a1c702f4298cead88988401bb8">getVAOid</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classgVbo.html#a54558e4d55a66d2fbe59a9aba2642cb6">   64</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classgVbo.html#a54558e4d55a66d2fbe59a9aba2642cb6">getVerticesNum</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classgVbo.html#a12ab0cc3c251af48657dffb417007f67">   65</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classgVbo.html#a12ab0cc3c251af48657dffb417007f67">getIndicesNum</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    GLuint vao;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    GLuint vbo, ebo;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">bool</span> isenabled;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">bool</span> isvertexdataallocated;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> vertexdatacoordnum, totalvertexnum;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">int</span> vertexusage, vertexstride;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">bool</span> isindexdataallocated;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">int</span> totalindexnum;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">bool</span> isindexdataallocated;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">int</span> totalindexnum;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">int</span> totalinstancenum;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
 </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#endif </span><span class="comment">/* GRAPHICS_GVBO_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif </span><span class="comment">/* GRAPHICS_GVBO_H_ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aclassgColor_html"><div class="ttname"><a href="classgColor.html">gColor</a></div><div class="ttdef"><b>Definition</b> gColor.h:17</div></div>
 <div class="ttc" id="aclassgRenderObject_html"><div class="ttname"><a href="classgRenderObject.html">gRenderObject</a></div><div class="ttdef"><b>Definition</b> gRenderObject.h:25</div></div>
 <div class="ttc" id="aclassgVbo_html"><div class="ttname"><a href="classgVbo.html">gVbo</a></div><div class="ttdef"><b>Definition</b> gVbo.h:30</div></div>
@@ -209,7 +204,6 @@ $(document).ready(function(){initNavTree('gVbo_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassgVbo_html_a6443dfa2ab892890d45c4e5bf0aa7f38"><div class="ttname"><a href="classgVbo.html#a6443dfa2ab892890d45c4e5bf0aa7f38">gVbo::setIndexData</a></div><div class="ttdeci">void setIndexData(const gIndex *indices, int total)</div></div>
 <div class="ttc" id="aclassgVbo_html_a68f0c0a1c702f4298cead88988401bb8"><div class="ttname"><a href="classgVbo.html#a68f0c0a1c702f4298cead88988401bb8">gVbo::getVAOid</a></div><div class="ttdeci">int getVAOid() const</div></div>
 <div class="ttc" id="aclassgVbo_html_a73f04c6f2836362f6fe3b41e891d7553"><div class="ttname"><a href="classgVbo.html#a73f04c6f2836362f6fe3b41e891d7553">gVbo::setTexCoordData</a></div><div class="ttdeci">void setTexCoordData(const glm::vec2 *texCoords, int total, int usage)</div></div>
-<div class="ttc" id="aclassgVbo_html_a78753977b14f428bc44d3ac56d48ad40"><div class="ttname"><a href="classgVbo.html#a78753977b14f428bc44d3ac56d48ad40">gVbo::getInstanceNum</a></div><div class="ttdeci">int getInstanceNum() const</div></div>
 <div class="ttc" id="aclassgVbo_html_a7c447bcb75c3e22dc4ed7c91b47ec687"><div class="ttname"><a href="classgVbo.html#a7c447bcb75c3e22dc4ed7c91b47ec687">gVbo::disable</a></div><div class="ttdeci">void disable()</div></div>
 <div class="ttc" id="aclassgVbo_html_a8fd41c23b393e8f5a6740ef5bb28b9bf"><div class="ttname"><a href="classgVbo.html#a8fd41c23b393e8f5a6740ef5bb28b9bf">gVbo::setNormalData</a></div><div class="ttdeci">void setNormalData(const glm::vec3 *normals, int total, int usage=GL_STATIC_DRAW)</div></div>
 <div class="ttc" id="aclassgVbo_html_a951d60eb313c30a60d37c76ef4cffacc"><div class="ttname"><a href="classgVbo.html#a951d60eb313c30a60d37c76ef4cffacc">gVbo::setNormalData</a></div><div class="ttdeci">void setNormalData(const float *normal0x, int total, int usage, int stride=0)</div></div>
@@ -219,7 +213,6 @@ $(document).ready(function(){initNavTree('gVbo_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassgVbo_html_abe47346a4ca7a3e4251fffcc2c0b0a07"><div class="ttname"><a href="classgVbo.html#abe47346a4ca7a3e4251fffcc2c0b0a07">gVbo::clear</a></div><div class="ttdeci">void clear()</div></div>
 <div class="ttc" id="aclassgVbo_html_acd7dd67025e2ddd7220fd924ae3f28d4"><div class="ttname"><a href="classgVbo.html#acd7dd67025e2ddd7220fd924ae3f28d4">gVbo::setColorData</a></div><div class="ttdeci">void setColorData(const float *color0r, int total, int usage, int stride=0)</div></div>
 <div class="ttc" id="aclassgVbo_html_ad046c4ba8d6ff13946d342427366ce61"><div class="ttname"><a href="classgVbo.html#ad046c4ba8d6ff13946d342427366ce61">gVbo::operator=</a></div><div class="ttdeci">gVbo &amp; operator=(const gVbo &amp;other)=delete</div></div>
-<div class="ttc" id="aclassgVbo_html_adc4e86aa7f88b9ce8ded989fe2b03fe3"><div class="ttname"><a href="classgVbo.html#adc4e86aa7f88b9ce8ded989fe2b03fe3">gVbo::setInstanceData</a></div><div class="ttdeci">void setInstanceData(const glm::mat4 *matrices, int count)</div></div>
 <div class="ttc" id="aclassgVbo_html_af80337e12ce06252012fddd8c3757a8a"><div class="ttname"><a href="classgVbo.html#af80337e12ce06252012fddd8c3757a8a">gVbo::isEnabled</a></div><div class="ttdeci">bool isEnabled() const</div></div>
 <div class="ttc" id="agRenderObject_8h_html"><div class="ttname"><a href="gRenderObject_8h.html">gRenderObject.h</a></div></div>
 <div class="ttc" id="agRenderObject_8h_html_af55a3f66099f56627d5a6d10ea11c349"><div class="ttname"><a href="gRenderObject_8h.html#af55a3f66099f56627d5a6d10ea11c349">gIndex</a></div><div class="ttdeci">unsigned int gIndex</div><div class="ttdef"><b>Definition</b> gRenderObject.h:19</div></div>
