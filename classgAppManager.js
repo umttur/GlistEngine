@@ -3,6 +3,7 @@ var classgAppManager =
     [ "gAppManager", "classgAppManager.html#ae902977d2cd2e032850a0dbcd555a6a1", null ],
     [ "~gAppManager", "classgAppManager.html#a4cc20b21f0caee8139e792aad8a3d8c4", null ],
     [ "callEvent", "classgAppManager.html#a1b194d1d7f4f1cc97c67473a5e8b1373", null ],
+    [ "createCustomCursor", "classgAppManager.html#a9f2f3a3394915bf96072c92271f4abe8", null ],
     [ "disableVsync", "classgAppManager.html#afed9d41c6aa9268605f208aa06207aef", null ],
     [ "emscriptenLoop", "classgAppManager.html#adbd84272ec7c2ebcebf120825a0ad8c2", null ],
     [ "enableVsync", "classgAppManager.html#a542ffc28b86ef4acd5921b16a5a37255", null ],

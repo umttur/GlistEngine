@@ -1,5 +1,11 @@
 var NAVTREEINDEX17 =
 {
+"gTerrain_8h_source.html":[2,0,0,4,24],
+"gTexture_8h.html":[2,0,0,4,25],
+"gTexture_8h.html#a8e75a38096ba21b53a7c6331edc4cd6f":[2,0,0,4,25,1],
+"gTexture_8h_source.html":[2,0,0,4,25],
+"gThread_8h.html":[2,0,0,8,7],
+"gThread_8h_source.html":[2,0,0,8,7],
 "gTiltShift_8h.html":[2,0,0,4,1,16],
 "gTiltShift_8h_source.html":[2,0,0,4,1,16],
 "gTracy_8h.html":[2,0,0,8,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX17 =
 "structgRenderer_1_1gSceneFogData.html#a6e3e7ba8c2a35dd85b44c3dbbef51d16":[1,0,145,1,0],
 "structgRenderer_1_1gSceneFogData.html#a88990ff245ff5283fb0df9f4a4962f5d":[1,0,145,1,3],
 "structgRenderer_1_1gSceneFogData.html#aa7101cf0df447fa7f44729163cf6fb87":[1,0,145,1,2],
-"structgRenderer_1_1gSceneLightData.html":[1,0,145,2],
-"structgRenderer_1_1gSceneLightData.html#a085ac9634fd9856eea279d671e0a10bb":[1,0,145,2,10],
-"structgRenderer_1_1gSceneLightData.html#a33134a037b7b3fc818f85fb96cc761df":[1,0,145,2,9],
-"structgRenderer_1_1gSceneLightData.html#a665ad65fd67620f1447bc82ceee28a32":[1,0,145,2,8],
-"structgRenderer_1_1gSceneLightData.html#a70a6daffbb49dd8e71938c072a2a4849":[1,0,145,2,6],
-"structgRenderer_1_1gSceneLightData.html#a7b4fb63d9e039936022413f0e72a3201":[1,0,145,2,7],
-"structgRenderer_1_1gSceneLightData.html#a810e47fb54610d2357db7f88c0db1497":[1,0,145,2,1]
+"structgRenderer_1_1gSceneLightData.html":[1,0,145,2]
 };

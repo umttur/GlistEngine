@@ -3,6 +3,7 @@ var classgBaseWindow =
     [ "gBaseWindow", "classgBaseWindow.html#a8462c16376b8afb82add115155ff7b09", null ],
     [ "~gBaseWindow", "classgBaseWindow.html#a593af624ca2c39b2ba0664630193363b", null ],
     [ "close", "classgBaseWindow.html#a4f01bf13a831462ad7c13cc8e542b45b", null ],
+    [ "createCustomCursor", "classgBaseWindow.html#a225a3ee8d91db920c1569285f6915934", null ],
     [ "disableVsync", "classgBaseWindow.html#a8a271b838dbb0c8f9c099f9374ffd4aa", null ],
     [ "enableVsync", "classgBaseWindow.html#a17c4bec808328c76195f2f61dfc05c06", null ],
     [ "enableVsync", "classgBaseWindow.html#a919c57c2696bb89499653c80ceefa90c", null ],

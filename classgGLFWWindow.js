@@ -3,6 +3,7 @@ var classgGLFWWindow =
     [ "gGLFWWindow", "classgGLFWWindow.html#a1dd02adc9e910380e1a0cac1b400b0e5", null ],
     [ "~gGLFWWindow", "classgGLFWWindow.html#a862afff8aabd0f751ef27087dca5c345", null ],
     [ "close", "classgGLFWWindow.html#acd4fb915673ad68f52190337c25967d8", null ],
+    [ "createCustomCursor", "classgGLFWWindow.html#a4aab7a8330aca814e50fb4c36248bfa7", null ],
     [ "getClipboardString", "classgGLFWWindow.html#af5c79950f648cf21d0c9077292a731a7", null ],
     [ "getJoystickAxes", "classgGLFWWindow.html#ad3d9239a9278fe14fdc9bebf370491a6", null ],
     [ "getScaleX", "classgGLFWWindow.html#ad30b9b2995be193428cf3869a0714233", null ],
